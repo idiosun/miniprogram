@@ -1,9 +1,11 @@
 <!--pages/welcome/welcome.wxml-->
 <view class="contain">
-  <image class="head" src="../../images/猫.png"></image>
+  <l-avatar class="l-avatar" placement="bottom" shape="circle" size="180"
+  open-data="{{['userAvatarUrl','userNickName']}}" />
   <text class="motto">你好，孙涵</text>
   <!-- <button>开启小程序之旅</button> -->
   <view class="button">
-    <text>开启小程序之旅</text>
+    <text>开启小程序之旅
+    </text>
   </view>
 </view>

@@ -33,3 +33,6 @@
 page {
   background-color: #b3d4db;
 }
+.l-avatar {
+  margin-top: 160px;
+}
