@@ -1,2 +1,28 @@
 <!--pages/posts/posts.wxml-->
-<text>pages/posts/posts.wxml</text>
+<view>
+  <swiper indicator-dots="{{true}}" autoplay="{{true}}" indicator-active-color="#c22a1e" circular="{{true}}"
+    interval="2500">
+    <swiper-item>
+      <image src="../../images/2.jpg"></image><!-- 插槽 -->
+    </swiper-item>
+    <swiper-item>
+      <image src="../../images/3.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="../../images/4.jpg"></image>
+    </swiper-item>
+  </swiper>
+  <view class="post-container">
+  <view class="author-date">
+    <image src="../../images/猫.png"></image>
+    <text>Nov 18 2020</text>
+  </view>
+  <text class="title">2020LPL夏季赛季后赛参赛指南</text>
+  <image class="main-image" src="../../images/2.jpg"></image>
+  <text class="main-text">是否跳过未显示的滑块布局，设为 true 可优化复杂情况下的滑动性能，但会丢失隐藏状态滑块的布局信息</text>
+  <view class="message">
+    <image src="../../images/收 藏.png"></image><text>92</text>
+    <image src="../../images/浏览.png"></image><text>102</text>
+  </view>
+  </view>
+</view>

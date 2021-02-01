@@ -73,6 +73,7 @@
           "id": -1,
           "name": "书目编译",
           "pathName": "pages/posts/posts",
+          "query": "",
           "scene": null
         }
       ]
