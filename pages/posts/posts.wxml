@@ -17,7 +17,7 @@
 
 
   
-  <block wx:for="{{posts}}">
+  <block wx:for="{{postList}}">
     <view class="post-container">
       <view class="author-date">
         <image src="{{item.img}}"></image>
