@@ -1,11 +1,9 @@
 <!--pages/welcome/welcome.wxml-->
 <view class="contain">
   <l-avatar class="l-avatar" placement="bottom" shape="circle" size="180"
-  open-data="{{['userAvatarUrl','userNickName']}}" />
-  <text class="motto">你好，孙涵</text>
+    open-data="{{['userAvatarUrl','userNickName']}}" />
   <!-- <button>开启小程序之旅</button> -->
-  <view class="button">
-    <text>开启小程序之旅
-    </text>
+  <view bind:tap="onTap" class="button">
+    <text>进入猫的理想国</text>
   </view>
 </view>

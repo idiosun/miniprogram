@@ -1,11 +1,11 @@
 /* pages/posts/posts.wxss */
 swiper image {
   width: 100%;
-  height: 460rpx;
+  height: 430rpx;
 }
 swiper {
   width: 100%;
-  height: 460rpx;
+  height: 430rpx;
 }
 .post-container {
   display: flex;
@@ -25,6 +25,7 @@ swiper {
 .author-date image {
   width: 60rpx;
   height: 60rpx;
+  border-radius: 50%;
 }
 .author-date text {
   margin-left: 20rpx;
@@ -35,6 +36,7 @@ swiper {
   font-size: 32rpx;
   margin-bottom: 20rpx;
   color: #333;
+  margin-left: 50rpx;
 }
 .main-image {
   width: 100%;
@@ -42,6 +44,7 @@ swiper {
   margin-bottom: 30rpx;
 }
 .main-text {
+  text-indent: 2em;
   color: #666;
   font-size: 28rpx;
   line-height: 40rpx;
@@ -53,10 +56,8 @@ swiper {
   display: flex;
   align-items: center;
 }
-.message image {
-  margin: 0 16rpx;
-  width: 36rpx;
-  height: 36rpx;
+.message l-acon {
+  margin: 0 18rpx;
 }
 .message text {
   font-size: 26rpx;

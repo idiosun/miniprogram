@@ -3,7 +3,7 @@
   <swiper indicator-dots="{{true}}" autoplay="{{true}}" indicator-active-color="#c22a1e" circular="{{true}}"
     interval="2500">
     <swiper-item>
-      <image src="../../images/2.jpg"></image><!-- 插槽 -->
+      <image src="../../images/5.jpg"></image>
     </swiper-item>
     <swiper-item>
       <image src="../../images/3.jpg"></image>
@@ -12,17 +12,33 @@
       <image src="../../images/4.jpg"></image>
     </swiper-item>
   </swiper>
-  <view class="post-container">
-  <view class="author-date">
-    <image src="../../images/猫.png"></image>
-    <text>Nov 18 2020</text>
-  </view>
-  <text class="title">2020LPL夏季赛季后赛参赛指南</text>
-  <image class="main-image" src="../../images/2.jpg"></image>
-  <text class="main-text">是否跳过未显示的滑块布局，设为 true 可优化复杂情况下的滑动性能，但会丢失隐藏状态滑块的布局信息</text>
-  <view class="message">
-    <image src="../../images/收 藏.png"></image><text>92</text>
-    <image src="../../images/浏览.png"></image><text>102</text>
-  </view>
-  </view>
+
+
+
+
+  
+  <block wx:for="{{posts}}">
+    <view class="post-container">
+      <view class="author-date">
+        <image src="{{item.img}}"></image>
+        <text>{{item.date}}</text>
+      </view>
+      <text class="title">{{item.title}}</text>
+      <image class="main-image" src="{{item.mainImage}}"></image>
+      <text class="main-text">{{item.mainText}}</text>
+      <view class="message">
+        <l-acon name="favor" size="30" color="#a9a9a9" />
+        <text>{{item.favor}}</text>
+        <l-acon name="eye" size="34" color="#a9a9a9" />
+        <text>{{item.eye}}</text>
+      </view>
+    </view>
+  </block>
+
+
+
+
+
+
+
 </view>

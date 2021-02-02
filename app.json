@@ -5,10 +5,13 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#c22a1e",
-    "navigationBarTitleText": "Weixin",
+    "navigationBarBackgroundColor": "#b3d4db",
+    "navigationBarTitleText": "猫的理想国",
     "navigationBarTextStyle": "black"
-  },
+},
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "l-acon":"./miniprogram_npm/lin-ui/icon"
+  }
 }
