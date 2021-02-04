@@ -1,17 +1,18 @@
 {
-  "pages": [
-    "pages/welcome/welcome",
-    "pages/posts/posts"
-  ],
-  "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#b3d4db",
-    "navigationBarTitleText": "猫的理想国",
-    "navigationBarTextStyle": "black"
-},
-  "style": "v2",
-  "sitemapLocation": "sitemap.json",
-  "usingComponents": {
-    "l-acon":"./miniprogram_npm/lin-ui/icon"
-  }
+    "pages": [
+        "pages/welcome/welcome",
+        "pages/posts/posts",
+        "pages/post-detail/post-detail"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#b3d4db",
+        "navigationBarTitleText": "猫的理想国",
+        "navigationBarTextStyle": "black"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+    "usingComponents": {
+        "l-acon": "./miniprogram_npm/lin-ui/icon"
+    }
 }

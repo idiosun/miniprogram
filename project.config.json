@@ -75,6 +75,13 @@
                     "pathName": "pages/posts/posts",
                     "query": "",
                     "scene": null
+                },
+                {
+                    "id": 1,
+                    "name": "详情编译",
+                    "pathName": "pages/post-detail/post-detail",
+                    "query": "",
+                    "scene": null
                 }
             ]
         }

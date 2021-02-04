@@ -1,0 +1,21 @@
+<!--pages/post-detail/post-detil.wxml-->
+<view class="container">
+    <image class="head-img" src="../../images/4.jpg"></image>
+    <view class="author">
+        <image class="headpic" src="../../images/05.jpg"></image>
+        <text class="name">孙涵</text>
+        <text class="const">发表于</text>
+        <text class="time">16小时前</text>
+    </view>
+    <text class="title">洒出都是核桃仁BRT的吧</text>
+    <view class="circle-line">
+        <view class="two">
+            <image class="cang" src="../../images/share.png"></image>
+            <image class="like" src="../../images/collection.png"></image>
+        </view>
+        <view class="line"></view>
+    </view>
+    <text class="main">GRE，全称Graduate Record
+        Examination，中文名称为美国研究生入学考试，适用于申请理工科、人文社科、商科、法学等多个专业的硕士、博士以及MBA项目；一项是GRE普通考试(General Test)）。
+        GRE普通考试测试内容为测量考生的文字推理、数量推理、分析性写作的能力。</text>
+</view>
