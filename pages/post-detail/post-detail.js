@@ -1,18 +1,22 @@
 // pages/post-detail/post-detil.js
+import { postList } from "../../data/data.js"
 Page({
 
     /**
      * 页面的初始数据
      */
     data: {
-
     },
 
     /**
      * 生命周期函数--监听页面加载
      */
     onLoad: function (options) {
-
+        console.log(options)
+        const detail = postList[options.pid];
+        console.log(detail); 
+        this.setData(detail);
+        console.log(this.data)
     },
 
     /**

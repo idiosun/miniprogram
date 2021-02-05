@@ -15,8 +15,11 @@ Page({
    * 生命周期函数--监听页面加载
    */
   goToDetail(event) {
+    const id = event.currentTarget.dataset.id;
+    console.log(event)
+    console.log(id)
     wx.navigateTo({
-      url: '/pages/post-detail/post-detail',
+      url: '/pages/post-detail/post-detail?pid='+id,
     })
   },
   onLoad: function (options) {

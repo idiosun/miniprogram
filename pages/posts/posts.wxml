@@ -18,7 +18,7 @@
 
   
   <block wx:for="{{postList}}" wx:key="index">
-    <view bind:tap="goToDetail" class="post-container">
+    <view data-id="{{item.postId}}" bind:tap="goToDetail" class="post-container">
       <view class="author-date">
         <image src="{{item.img}}"></image>
         <text>{{item.date}}</text>
