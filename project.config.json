@@ -80,7 +80,7 @@
                     "id": 1,
                     "name": "详情编译",
                     "pathName": "pages/post-detail/post-detail",
-                    "query": "",
+                    "query": "pid=0",
                     "scene": null
                 }
             ]

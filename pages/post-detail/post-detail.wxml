@@ -11,7 +11,8 @@
     <view class="circle-line">
         <view class="two">
             <image class="share" src="../../images/share.png"></image>
-            <image class="like" src="../../images/collection.png"></image>
+            <image wx:if="{{collected}}" bind:tap="onCollect" class="like" src="../../images/collection.png"></image>
+            <image wx:else bind:tap="onCollect" class="like" src="../../images/collection-anti.png"></image>
         </view>
         <view class="line"></view>
     </view>
