@@ -17,6 +17,9 @@ Page({
             collected: !this.data.collected,
         })
         wx.setStorageSync('posts-collected', postCollected);
+        wx.showToast({
+            title: this.data.collected?'收藏成功':'取消收藏'
+          });
     },
     /**
      * 生命周期函数--监听页面加载
@@ -36,7 +39,7 @@ Page({
         console.log(postsCollected)
         console.log(detail);
         this.setData(detail);
-        console.log(this.data)
+        console.log(this.data);
     },
 
     /**
